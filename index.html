@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogDeCafe</title>
+    <!-- meta description -->
+    <meta name="description" content="webpage on coffee blog">
+
+    <!-- prefetch -->
+    <link rel="prefetch" href="normalize.html" as="document">
+
+    <!-- preload -->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap" crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet"> 
+
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+ 
+<body>
+<header class="header">
+<div class="contenedor">
+    <div class="barra">
+        <a class="logo" href="index.html">
+            <h1 class="logo_nombre no-margin">Blog <span class="logo_bold">de Cafe</span></h1>
+        </a>
+
+        <nav class="navegacion_enlace">
+            <a  href="nosotros.html"
+            class="navegacion">Nosotros</a>
+            <a  href="cursos.html"
+            class="navegacion">cursos</a>
+            <a  href="contacto.html"
+            class="navegacion">contacto</a>
+        </nav>
+    </div>
+</div>
+
+<div class="header_texto">
+    <h2 class="no-margin">Blog de cafe con consejos
+        y hijos</h2>
+        <p class="no-margin">aprende de los expertos con las mejores recetas</p>
+</div>
+</header>
+
+<div class="contenedor contenido-principal">
+    <main class="blog">
+        <h3>Nuestro Blog</h3>
+        <article class="entrada">
+            <div>
+              <picture>
+                    <source loading="lazy" srcset="img/blog1.webp" type="webp/image">
+                    <img class="blog__image" loading="lazy" src="img/blog1.jpg">
+              </picture>
+            </div>
+            
+            <div class="entrada__contenido">
+                <h4 class="no-margin">Tipos de Cafe</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, rerum 
+                    explicabo doloremque quae cumque ipsum repudiandae 
+                    labore aperiam impedit consectetur corporis culpa nesciunt consequuntur 
+                    adipisci, optio sint! Possimus, dolorem accusamus.</p>
+                    <a href="entrada.html" class="boton boton--primario">mas informacion sobre nuestros cursos</a>
+            </div>
+        </article>
+        <article class="entrada">
+                <div class="no-margin">
+                    <picture>
+                        <source loading="lazy" srcset="img/blog2.webp" type="webp/image">
+                        <img loading="lazy" src="img/blog2.jpg" alt="" class="imagen__article">    
+                    </picture>
+                    
+                </div>
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Tipos de Cafe</h4>
+                    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, rerum 
+                        explicabo doloremque quae cumque ipsum repudiandae 
+                        labore aperiam impedit consectetur corporis culpa nesciunt consequuntur 
+                        adipisci, optio sint! Possimus, dolorem accusamus.</p>
+                        <a href="entrada.html" class="boton boton--primario">Leer Entrada</a>
+                </div>
+        </article>
+        <article class="entrada">
+                <div class="no-margin">
+                    <source loading="lazy" srcset="img/blog3.webp" as="webp/image">
+                    <img loading="lazy" src="img/blog3.jpg" alt="blog3" class="imagen__article">
+                </div>
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Tipos de Cafe</h4>
+                    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, rerum 
+                        explicabo doloremque quae cumque ipsum repudiandae 
+                        labore aperiam impedit consectetur corporis culpa nesciunt consequuntur 
+                        adipisci, optio sint! Possimus, dolorem accusamus.</p>
+                        <a href="entrada.html" class="boton boton--primario">Leer Entrada</a>
+                </div>
+        </article>
+    </main>
+    
+    <aside class="sidebar">
+            <h3>Nuestro Cursos y Talleres</h3>
+        <ul class="cursos no-padding">
+            <li class="widget-curso">
+                    <h4 class="no-margin ">Tecnicas de Extraccion de Cafe</h4>
+                    <p class="widget-curso__label">precio: 
+                        <span class="widget-curso__info">gratis</span>
+                    </p>
+                    <p class="widget-curso__label">cupo: 
+                        <span class="widget-curso__info">20</span>
+                    </p>
+                    <a href="entrada.html" class="boton buton--secundario">Leer entrada</a>
+            </li>
+
+            <li class="widget-curso">
+                <h4 class="no-margin ">4 recetas de cafe para principiantes</h4>
+                    <p class="widget-curso__label">precio: 
+                        <span class="widget-curso_info">gratis</span>
+                    </p>
+                    <p class="widget-curso__label">cupo: 
+                        <span class="widget-curso__info">20</span>
+                    </p>
+                    <a href="entrada.html" class="boton buton--secundario">Leer entrada</a>
+            </li>
+        </ul>
+    </aside>
+    </div>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo " href="index.html">
+                    <h1 class="logo_nombre no-margin">Blog <span class="logo_bold">de Cafe</span></h1>
+                </a>
+        
+                <nav class="navegacion_enlace">
+                    <a  href="nosotros.html"
+                    class="navegacion">Nosotros</a>
+                    <a  href="cursos.html"
+                    class="navegacion">cursos</a>
+                    <a  href="contacto.html"
+                    class="navegacion">contacto</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+<script src="js/modernizr.js"></script>
+</body>
+</html>
+
+
+
+
+<style>
+
+    :root {
+        --fuenteHeading: 'PT Sans', Sans-serif;
+        --fuenteParrafos: 'Open Sans', Sans-Serif;
+        --gris: rgb(205, 205, 205);
+        --primario: #784D3C;
+        --blanco: #ffffff;
+        --negro: #000000;
+
+    }
+
+    html {
+        Box-sizing: border-box;
+        font-size: 62.5%; /* 1rem = 10px */
+        
+    }
+
+    *, *{
+
+    }
+
+    body {
+        font-family: var(--fuenteParrafos);
+        font-size: 1.6rem;
+        line-height: 2;
+        
+    }
+
+
+    /* globales */
+
+    .contenedor {
+        max-width: 120rem;
+        width: 90%;
+        margin: 0 auto;
+        width: min(90%, 120rem);
+    }
+
+    a {
+        text-decoration: none;
+
+    }
+    h1, h2, h3, h4 {
+        font-family: var(--fuenteHeading);
+        line-height: 1.4;
+
+    }
+
+    h1 {
+        font-size: 4.8rem;
+        
+    }
+
+    h2{
+        font-size: 4rem;
+
+    }
+
+    h3 {
+        font-size: 3.2rem;
+
+    }
+
+    h4{
+        font-size: 2.8rem;
+
+    }
+
+    p, a{
+        font-size: 1.8rem;
+    }
+    
+    img {
+        max-width: 100%;
+
+    }
+
+    /* utilities */
+
+    .no-margin {
+        margin: 0;
+
+    }
+
+    .no-padding {
+        padding: 0;
+    }
+
+    .centrar-texto {
+        text-align: center;
+    }
+
+    .logo_nombre{
+    color: var(--blanco);
+    font-weight: 400;
+
+    }
+
+    .logo_bold{
+        font-weight: 800;
+    }
+
+/* HEADer */
+    .webp .header{
+            background-image: url(img/banner.webp);
+    }
+    .no-webp .header{
+            background-image: url(img/banner.jpg);
+    }
+
+   .header{
+    height: 60rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin-bottom: 2rem;
+
+}
+    
+.barra{
+    font-family: var(--fuenteHeading);
+    color: var(--blanco);
+    padding-top: 4rem;
+
+
+}
+
+.logo {
+
+
+}
+
+
+.navegacion {
+    color: var(--blanco);
+    font-size: 2rem;
+  
+}
+
+.header_texto {
+    margin-top: 8rem;
+    text-align: center;
+    color: var(--blanco);
+  
+
+
+}
+.header_texto p{
+ 
+    font-size: 1.8rem;
+    font-weight: 500;
+
+
+}
+
+
+@media (min-width: 768px) {
+    
+    .barra{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navegacion_enlace{
+        display: flex;
+
+    
+    }
+    .navegacion{
+        margin-right: 2rem;
+    }
+
+    .navegacion_enlace:last-of-type{
+      margin-right: 0;
+
+    }
+    
+}
+
+.barra{
+      text-align: center;
+}
+
+.navegacion{
+    
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    
+    
+}
+
+/* main */
+.contenedor {
+
+   
+}
+
+@media (min-width: 768px) {
+   .contenido-principal {
+    max-width: 130rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 90%;
+    gap: 3rem;
+
+    
+} 
+
+
+}
+
+
+.entrada:last-of-type{
+    border-bottom: none;
+    margin-bottom: 0;
+}
+.entrada{
+    border-bottom: 1px solid var(--gris);
+    margin-bottom: 3rem;
+}
+.contenido-principal h3{
+    margin-top: 5px;
+    margin-bottom: 4rem;
+   
+}
+
+
+.blog  {
+
+}
+.sidebar h3{
+    margin-bottom: 2.5rem;
+}
+
+@media (min-width: 768px) {
+    .boton{
+        display: inline-block;
+        width: fit-content;
+        
+    }
+    
+}
+.boton{
+
+    display: block;
+    background: yellow;
+    padding: 1rem 3rem;
+    font-family: var(--fuenteHeading);
+    color: var(--blanco);
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 2rem;
+
+}
+
+.cursos{
+    list-style: none;
+}
+
+.widget-curso{
+border-bottom: 1px solid var(--gris);
+}
+
+.widget-curso:last-of-type{
+border-bottom: 0;
+}
+
+.widget-curso__label{
+    font-family:var(--fuenteHeading);
+    font-weight: 800;
+    text-align: left;
+}
+.widget-curso__info{
+    font-weight: normal;
+}
+
+.boton--primario{
+   background-color: var(--negro);
+   
+}
+
+.buton--secundario{
+    margin-bottom: 3rem;
+    background-color: var(--primario);
+}
+.footer {
+    margin-top: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    background: var(--negro);
+
+    
+}
+.contenedor  {
+   
+}
+</style> 

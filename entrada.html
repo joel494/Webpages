@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>entrada</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+<header class="header">
+    <div class="contenedor">
+        <div class="barra">
+            <a class="logo" href="index.html">
+                <h1 class="logo_nombre no-margin">Blog <span class="logo_bold">de Cafe</span></h1>
+            </a>
+            <nav class="navegacion_enlace">
+                <a  href="nosotros.html"
+                class="navegacion">Nosotros</a>
+                <a  href="cursos.html"
+                class="navegacion">cursos</a>
+                <a  href="contacto.html"
+                class="navegacion">contacto</a>
+            </nav>
+        </div>
+    </div>
+    
+    <div class="header_texto">
+        <h2 class="no-margin">Blog de cafe con consejos
+            y hijos</h2>
+            <p class="no-margin">aprende de los expertos con las mejores recetas</p>
+    </div>
+</header>
+    <main>
+        <h1 class="centrar-texto">nosotros</h1>
+        <div class="contenedor">
+            <div class="blog-imagen">
+                <img loading="lazy" src="img/blog2.jpg" alt="">
+            </div>
+            <div class="text">
+                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non placeat reprehenderit facere. Facilis omnis at dignissimos eum minima sed et consectetur rerum. Soluta voluptates laborum ipsum maxime dolorum nam ipsam.
+                    Ab alias laboriosam explicabo fugit accusantium minima libero facere illum excepturi dignissimos eius tempore ipsa rerum dolorum eligendi enim, modi cum repudiandae eum totam illo? Cumque accusantium magnam praesentium aperiam!
+                    Consectetur culpa mollitia harum quaerat obcaecati, quod cupiditate repellat vitae at cum ut, aliquid quo tenetur natus, blanditiis hic aspernatur perferendis officiis? Eius, temporibus debitis mollitia impedit repellendus ullam adipisci?
+                    Minus quia enim aut debitis explicabo nam deleniti accusamus dolores consectetur eum hic animi quod aperiam, tempore sed consequuntur reiciendis, illo ratione ad officiis veritatis libero id voluptatum! Praesentium, hic.
+                </p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eligendi temporibus distinctio, esse in sed rem aliquam ullam, possimus nostrum autem numquam molestias voluptate doloremque a sint suscipit, ad libero.
+                    Minus nam eos nobis, velit dolor vitae quaerat iste ipsum id voluptas vel. Velit iure consequatur tempora, cum perspiciatis praesentium, quia a excepturi id quaerat quam rerum, accusamus laudantium optio!
+                    Non quae illo dicta quis blanditiis eligendi cum amet, architecto tempora consequatur itaque expedita minus et aperiam facere sunt sequi temporibus nisi a, voluptate ipsam fuga modi. In, eos amet!
+                    Quas ratione quae non nostrum rerum explicabo omnis totam adipisci esse, nulla, eligendi provident? Corrupti, reiciendis. Quae doloribus, dignissimos, iusto quis a ut, delectus sapiente corporis distinctio nulla officiis. At.
+                </p>
+            </div>
+        </div>
+
+    </main>
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo " href="index.html">
+                    <h1 class="logo_nombre no-margin">Blog <span class="logo_bold">de Cafe</span></h1>
+                </a>
+                <nav class="navegacion_enlace">
+                    <a  href="nosotros.html"
+                    class="navegacion">Nosotros</a>
+                    <a  href="cursos.html"
+                    class="navegacion">cursos</a>
+                    <a  href="contacto.html"
+                    class="navegacion">contacto</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <style type="text/css">
+
+ /* entrada */
+
+ .blog-imagen{
+    width: 100%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+ .text {
+    text-align: justify;
+}
+
+
+/* nosotros */
+
+/* index */
+/* header */
+
+.header{
+background-image: url(img/banner.jpg);
+height: 60rem;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+margin-bottom: 2rem;
+
+}
+
+.barra{
+font-family: var(--fuenteHeading);
+color: var(--blanco);
+padding-top: 4rem;
+}
+
+.logo {
+
+
+}
+
+.navegacion {
+color: var(--blanco);
+font-size: 2rem;
+
+}
+
+.header_texto {
+margin-top: 8rem;
+text-align: center;
+color: var(--blanco);
+
+}
+
+.header_texto p{
+font-size: 1.8rem;
+font-weight: 500;
+
+
+}
+
+
+@media (min-width: 768px) {
+
+.barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegacion_enlace{
+    display: flex;
+
+
+}
+.navegacion{
+    margin-right: 2rem;
+}
+
+.navegacion_enlace:last-of-type{
+  margin-right: 0;
+
+}
+
+}
+
+.barra{
+  text-align: center;
+}
+
+.navegacion{
+
+display: block;
+text-align: center;
+font-size: 2rem;
+
+
+}
+
+
+/* main */
+.contenedor {
+
+
+}
+
+@media (min-width: 768px) {
+.contenido-principal {
+max-width: 130rem;
+display: grid;
+grid-template-columns: 2fr 1fr;
+width: 90%;
+gap: 3rem;
+
+
+} 
+
+
+}
+
+.entrada:last-of-type{
+border-bottom: none;
+margin-bottom: 0;
+}
+.entrada{
+border-bottom: 1px solid var(--gris);
+margin-bottom: 3rem;
+}
+.contenido-principal h3{
+margin-top: 5px;
+margin-bottom: 4rem;
+
+}
+
+
+.blog  {
+
+}
+.sidebar h3{
+margin-bottom: 2.5rem;
+}
+
+@media (min-width: 768px) {
+.boton{
+    display: inline-block;
+    width: fit-content;
+    
+}
+
+}
+.boton{
+
+display: block;
+background: yellow;
+padding: 1rem 3rem;
+font-family: var(--fuenteHeading);
+color: var(--blanco);
+font-size: 1.8rem;
+text-transform: uppercase;
+font-weight: 600;
+margin-bottom: 2rem;
+
+}
+
+.cursos{
+list-style: none;
+}
+
+.widget-curso{
+border-bottom: 1px solid var(--gris);
+}
+
+.widget-curso:last-of-type{
+border-bottom: 0;
+}
+
+.widget-curso__label{
+font-family:var(--fuenteHeading);
+font-weight: 800;
+text-align: left;
+}
+.widget-curso__info{
+font-weight: normal;
+}
+
+.boton--primario{
+background-color: var(--negro);
+
+}
+
+.buton--secundario{
+margin-bottom: 3rem;
+background-color: var(--primario);
+}
+.footer {
+margin-top: 4rem;
+padding-top: 1rem;
+padding-bottom: 3rem;
+background: var(--negro);
+
+}
+.contenedor  {
+
+}
+
+    </style> 
+
+    
+</body>
+</html>

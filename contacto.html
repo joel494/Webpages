@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">  
+    <title>BlogDeCafe</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+<header class="header">
+    <div class="contenedor">
+        <div class="barra">
+            <a class="logo" href="index.html">
+                <h1 class="logo_nombre no-margin">Blog <span class="logo_bold">de Cafe</span></h1>
+            </a>
+            <nav class="navegacion_enlace">
+                <a  href="nosotros.html"
+                class="navegacion">Nosotros</a>
+                <a  href="cursos.html"
+                class="navegacion">cursos</a>
+                <a  href="contacto.html"
+                class="navegacion">contacto</a>
+            </nav>
+        </div>
+    </div>
+        <div class="header_texto">
+            <h2 class="no-margin">Blog de cafe con consejos
+            y hijos</h2>
+            <p class="no-margin">aprende de los expertos con las mejores recetas</p>
+        </div>
+</header>
+
+<main class="contenedor">
+        <h1 class="centrar-texto">contacto</h1>
+    <div class="contacto-bg"></div>
+        <form class="formulario">
+                <div class="campo">
+                    <label class="campo__label" for="nombre">nombre</label>
+                    <input
+                    class="campo__field"
+                    type="text" 
+                    placeholder="tu nombre" 
+                    id="nombre"
+                    >
+                </div>
+                <div class="campo">
+                    <label class="campo__label" for="e-mail">E-mail</label>
+                    <input 
+                    class="campo__field"
+                    type="email" 
+                    id="e-mail" 
+                    placeholder="tu email"
+                    >
+                </div>
+                <div class="campo">
+                    <label class="campo__label" for="mensaje">mensaje</label>
+                    <textarea 
+                    class="campo__textarea campo__field--textarea"
+                    id="mensaje"
+                    >
+                    </textarea>
+                </div>
+                <input 
+                    class="boton boton--primario" 
+                    type="submit" 
+                    value="enviar"
+                    >
+        </form>
+</main>
+
+        <footer class="footer ">
+            <div class="contenedor">
+                <div class="barra">
+                    <a class="logo " href="index.html">
+                        <h1 class="logo_nombre no-margin">Blog <span class="logo_bold">de Cafe</span></h1>
+                    </a>
+            
+                    <nav class="navegacion_enlace">
+                        <a  href="nosotros.html"
+                        class="navegacion">Nosotros</a>
+                        <a  href="cursos.html"
+                        class="navegacion">cursos</a>
+                        <a  href="contacto.html"
+                        class="navegacion">contacto</a>
+                    </nav>
+                </div>
+            </div>
+        </footer>
+    
+</body>
+</html>
+
+<style>
+/* contacto */
+.contacto-bg{
+    height: 50rem;
+    background-image: url(img/contacto.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: right bottom;
+}
+
+.header{
+background-image: url(img/banner.jpg);
+height: 60rem;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+margin-bottom: 2rem;
+
+}
+.boton--primario:hover{
+    cursor: pointer;
+}
+.footer{
+  
+    
+}
+
+
+.formulario{
+    background-color: var(--blanco);
+    margin: -5rem auto 0 auto;
+    width: 80%;
+    padding: 5rem;
+
+}
+
+.campo{
+
+display: flex;
+margin-bottom: 2rem; 
+}
+
+.campo__label{
+text-align: right;
+flex: 0 0 9rem;
+padding-right: 2rem;
+}
+
+.campo__field{
+   border: 1px solid rgb(217, 216, 216) ;
+    flex: 1;
+    padding:1.4rem 0rem;
+
+}
+
+.campo__field--textarea{
+height: 20rem;
+flex: 1;
+border: 1px solid rgb(217, 216, 216);
+
+}
+.boton--primario {
+    
+   padding: 1rem 2rem;
+}
+</style>
